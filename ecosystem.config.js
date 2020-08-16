@@ -29,7 +29,7 @@ module.exports = {
     name: "rimuru",
     script: "rimuru",
     cwd: "./rimuru",
-    args: "start --run-oninit",
+    args: "start",
     env: {
       "DB_CONN":dbConnection,
       "QUEUE_CONN": rabbitMqConnection,
