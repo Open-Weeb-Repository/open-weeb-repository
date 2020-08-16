@@ -30,7 +30,7 @@ prepare_app rimuru
 prepare_app diablo
 
 echo "Installing pm2"
-# npm install pm2
+npm install pm2
 
 echo "Starting Open-Weeb-Repository"
-# ./node_modules/.bin/pm2 start
+./node_modules/.bin/pm2 start
