@@ -9,8 +9,9 @@ This repo will start open weeb repository in your machine
 * Nodejs (tested in 12.14.1)
 * wget
 * unzip
+* git
 
 ## How to start
 
-1. edit configuration ```configuration.conf```
+1. edit environment variable in ```ecosystem.config.js```
 1. run ```start.sh```
